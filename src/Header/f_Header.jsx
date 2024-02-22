@@ -7,7 +7,7 @@ const F_Header = () => {
   return (
     <div className="w-full  font-roboto bg-[#282F3C]">
       <div className={`max-w-[1536px] mx-auto my-0`}>
-        <section className={`flex gap-8 text-white h-9 items-center`}>
+        <section className={`hidden gap-8 text-white h-9 items-center sm:flex`}>
           <Link to={"/about"}>О нас</Link>
           <Link to={"/installment"}>Рассрочка</Link>
           <Link to={"/vakansi"}>Вакансии</Link>
