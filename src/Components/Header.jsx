@@ -5,7 +5,7 @@ import T_Header from '../Header/t_Header'
 
 const Header = () => {
   return (
-    <div>
+    <div className='bg-white'>
       <F_Header/>
       <S_Header/>
       <T_Header/>
